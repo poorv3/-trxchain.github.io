@@ -1,0 +1,1413 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRX CHAIN</title>
+    <meta name="description" content="Investing is High Risk, High Reward. Please only invest spare money that you can afford to lose.">
+    <meta property="og:title" content="TRX CHAIN">
+    <meta property="og:url" content="http://www.trxstake.fun/">
+    <meta property="og:description" content="Investing is High Risk, High Reward. Please only invest spare money that you can afford to lose.">
+    <meta property="og:image" content="http://trxstake.surge.sh/assets/images/fav.png">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="TRX, trxstake, binance, bscscan, binance-smart-chain">
+    <meta name="author" content="TRX CHAIN">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav.png">
+    <link rel="stylesheet" href="npm/bootstrap%404.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <!-- <<<<<<<<<<<<<<<<<<================= Navbar ===============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <a class="btn btn-outline-primary btn-sm" id="WalletConnectBtn">
+                  <i class="fas fa-link"> </i> &nbsp; Connect Wallet</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto text-center" id="rightNav">
+              <li class="nav-item">
+                <span class="text-white">1 TRX = <span style="color: #0297cf" id="trxPrice">...</span>
+                </span>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="btn btn-sm btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Telegram
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_English">English</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Espanol">Spanish</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_French">French</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Dutch">Dutch</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Chinese">Chinese</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Bengali">Bengali</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Hindi">Hindi</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Portuguese">Portuguese</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Russian">Russian</a>
+                    <a class="dropdown-item" target="_blank" href="https://t.me/Cryptopower_Tagalog">Tagalog</a>
+                  </div>
+                </div>
+              </li>
+              <!-- <li class="nav-item">
+                <a
+                  class="btn btn-info btn-sm"
+                  href="https://t.me/"
+                  target="_blank"
+                >
+                  Telegram
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a target="_blank" class="btn btn-success btn-sm" href="assets/files/Security_Audit.pdf">
+                  Audit Report
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="btn btn-sm btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Presentation
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeEnglish.pdf">English</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeSpanish.pdf">Spanish</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeFrench.pdf">French</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeDutch.pdf">Dutch</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeChinese.pdf">Chinese</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeBengali.pdf">Bengali</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeHindi.pdf">Hindi</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakePortuguese.pdf">Portuguese</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeRussian.pdf">Russian</a>
+                    <a class="dropdown-item" target="_blank" href="assets/files/TRXStakeTagalog.pdf">Tagalog</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="btn btn-primary btn-sm" href="#"> Help </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <<<<<<<<<<<<<<<<<<================= MAIN ===============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <div class="container" id="mainHead">
+        <div class="text-center"></div>
+        <div class="row">
+          <div class="col-lg-8 mt-3 p-3">
+            <div id="back">
+              <p>
+                <strong> TRX CHAIN</strong> is a sustainable
+                <strong> ROI</strong> with some contract adjustments to
+                ensure longevity of the project and fairness for all who stake
+                on the platform <br>
+                Basic interest rate on all plans daily profit:
+                <br>
+                Minimal deposit: <strong>50 TRX</strong> <br>
+                Earnings can be withdrawn at any time.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 px-4">
+            <p class="text-white">
+              Total TRX Staked
+              <a href="https://tronscan.org/#/contract/TBYVkuv4VpHJcJn1iQfZfX79mmXJcMxgpY/code" target="_blank" class="badge badge-primary ml-3">Contract Address</a>
+            </p>
+            <h1 class="font-weight-bold" id="totalStaked">....</h1>
+            <p class="text-white">Total Contract Balance</p>
+            <h1 class="font-weight-bold" id="contractBalance">....</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mt-3 platinum">
+            <div class="card text-center">
+              <div class="card-header">Plan 01</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan01">...%</h1> -->
+                    <h1>1.20%</h1>
+                    <p>Withdraw time</p>
+                    <h1>Any Time</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP01">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan01">...%</h1> -->
+                    <h1>156%</h1>
+                    <p>Days</p>
+                    <h1>130</h1>
+                    <small>In 130 days you will get</small>
+                    <h1 id="returnReward01">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-primary btn-block mt-3" id="btnPlan01">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 platinum">
+            <div class="card text-center">
+              <div class="card-header">Plan 02</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan02">...%</h1> -->
+                    <h1>1.30%</h1>
+                    <p>Withdraw time</p>
+                    <h1>Any Time</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP02">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan02">...%</h1> -->
+                    <h1>188.5%</h1>
+                    <p>Days</p>
+                    <h1>145</h1>
+                    <small>In 145 days you will get</small>
+                    <h1 id="returnReward02">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-primary btn-block mt-3" id="btnPlan02">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 platinum">
+            <div class="card text-center">
+              <div class="card-header">Plan 03</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan03">...%</h1> -->
+                    <h1>1.40%</h1>
+                    <p>Withdraw time</p>
+                    <h1>Any Time</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP03">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan03">...%</h1> -->
+                    <h1>224%</h1>
+                    <p>Days</p>
+                    <h1>160</h1>
+                    <small>In 160 days you will get</small>
+                    <h1 id="returnReward03">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-primary btn-block mt-3" id="btnPlan03">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- second row plans  -->
+          <div class="col-lg-4 mt-3 plat">
+            <div class="card text-center">
+              <div class="card-header">Plan 04</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan04">...%</h1> -->
+                    <h1>0.75%</h1>
+                    <p>Withdraw time</p>
+                    <h1>End Of Plan</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP04">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan04">...%</h1> -->
+                    <h1>163%</h1>
+                    <p>Days</p>
+                    <h1>65</h1>
+                    <small>In 65 days you will get</small>
+                    <h1 id="returnReward04">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-success btn-block mt-3" id="btnPlan04">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-3 plat">
+            <div class="card text-center">
+              <div class="card-header">Plan 05</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan05">...%</h1> -->
+                    <h1>0.90%</h1>
+                    <p>Withdraw time</p>
+                    <h1>End Of Plan</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP05">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan05">...%</h1> -->
+                    <h1>205%</h1>
+                    <p>Days</p>
+                    <h1>80</h1>
+                    <small>In 80 days you will get</small>
+                    <h1 id="returnReward05">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-success btn-block mt-3" id="btnPlan05">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-3 plat">
+            <div class="card text-center">
+              <div class="card-header">Plan 06</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <p>Daily Profit</p>
+                    <!-- <h1 id="percentPlan06">...%</h1> -->
+                    <h1>1.05%</h1>
+                    <p>Withdraw time</p>
+                    <h1>End Of Plan</h1>
+                    <p>Enter Amount</p>
+                    <input type="text" placeholder="50" id="inputP06">
+                  </div>
+                  <div class="col-6">
+                    <p>Total Return</p>
+                    <!-- <h1 id="trpPlan06">...%</h1> -->
+                    <h1>350%</h1>
+                    <p>Days</p>
+                    <h1>120</h1>
+                    <small>In 120 days you will get</small>
+                    <h1 id="returnReward06">...</h1>
+                  </div>
+                </div>
+                <a class="btn btn-success btn-block mt-3" id="btnPlan06">STAKE TRX</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lg-12 mt-3">
+            <p>
+              <small>
+                <!-- 1. Important: Returns for plans are floated and daily profit for
+                a new deposit will increase by 0.5% daily. <br /> -->
+                1. Minimum deposit amount is 50 TRX <br>
+                2. Earnings every moment, withdraw instantly any time.
+              </small>
+            </p>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <div id="back">
+              <p>Total Staked TRX</p>
+              <h1 id="userTotalDeposit">...</h1>
+              <br>
+              <p>Available TRX for withdrawal</p>
+              <h1 id="availabeBalance">...</h1>
+              <div class="my-4">
+                <a class="btn btn-primary btn-block btn-lg" id="btnWithdraw">
+                  <img src="assets/images/fav.png" height="22px" alt="">
+                  Withdraw TRX</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-3">
+            <div class="card" style="border: none">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <small> Your Referral Link </small>
+                    <div class="input-group my-3">
+                      <input type="text" class="form-control" value="" id="refLink" placeholder="http://www.trxstake.fun/?ref=">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-info" onclick="myFunction()" type="button">
+                          <i class="fas fa-copy"></i>
+                        </button>
+                        <script>
+                          function myFunction() {
+                            var copyText = document.getElementById("refLink");
+                            copyText.select();
+                            copyText.setSelectionRange(0, 99999);
+                            document.execCommand("copy");
+                            swal({
+                              title: "Link Copied",
+                              text: copyText.value,
+                              icon: "success",
+                            });
+                            // alert("Copied : " + copyText.value);
+                          }
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <small> Total Referral Earned </small>
+                    <h1 id="getUserReferralBonus">...</h1>
+                    <p style="font-size: 12px">
+                      <small>
+                        Earn for promotion TRX CHAIN <br>
+                        You will receive: 5% from each level 1 referral deposits
+                        2% from each level 2 referral deposits 1% from each
+                        level 3,4,5 referral deposits Note! You need to have at
+                        least 1 deposit to start receive earnings</small>
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <small> Total Referral Withdrawn </small>
+                    <h1 id="getUserReferralWithdrawn">...</h1>
+                  </div>
+                  <div class="col-lg-4 lev">
+                    <small>Invited Users by You</small>
+                    <h1>Level 1. <span id="l01"> ... </span></h1>
+                    <h1>Level 2. <span id="l02"> ... </span></h1>
+                    <h1>Level 3. <span id="l03"> ... </span></h1>
+                    <h1>Level 4. <span id="l04"> ... </span></h1>
+                    <h1>Level 5. <span id="l05"> ... </span></h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center text-white">
+        <h1 class="py-4">Deposit History</h1>
+        <table class="table text-white">
+          <thead>
+            <tr>
+              <th scope="col">Deposit Date</th>
+              <th scope="col">Deposited TRX</th>
+              <th scope="col">Plan</th>
+              <th scope="col">Finish Date</th>
+            </tr>
+          </thead>
+          <tbody id="depositHistory"></tbody>
+        </table>
+      </div>
+      <div class="container my-4">
+        <div class="text-center">
+          <img src="assets/images/footer.png" class="img-fluid" alt="">
+          <br>
+          <small style="color: #888">Reviews:
+            <a href="https://dapp.review/" target="_blank" style="color: #888; text-decoration: none">
+              dApp.review</a></small>
+        </div>
+        <!-- <div class="text-center mt-3" id="icons">
+          <a href="https://t.me/" target="_blank"
+            ><i class="fab fa-telegram"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://discord.com/" target="_blank">
+            <i class="fab fa-discord"></i
+          ></a>
+          <a href="https://www.reddit.com/" target="_blank">
+            <i class="fab fa-reddit"></i
+          ></a>
+        </div> -->
+        <div class="row mt-4">
+          <div class="col-lg-12 text-center">
+            <small style="color: #888">Powered by
+              <span style="color: #bbb">
+                TRON | Decentralize The Web
+              </span></small>
+            <br>
+            <small style="color: #888">© 2021 by AV. All rights reserved.
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <script src="npm/bootstrap%404.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.0/web3.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script> -->
+    <script src="npm/web3%40latest/dist/web3.min.js"></script>
+    <!-- <script src="./assets/js/main.js"></script> -->
+    <script>
+      // TEqbbXAt4cUgBYxwA51Htx1TNth8RZydP6    New Contract
+      var contractAddress = "TBYVkuv4VpHJcJn1iQfZfX79mmXJcMxgpY"; // Mainnet New
+      // var contractAddress = 'TEqbbXAt4cUgBYxwA51Htx1TNth8RZydP6'; // Mainnet New
+      // var contractAddress = 'TPNqfSCqNM4cysfTgwhTVjp4HRB5z9zwqg'; // Mainnet Old
+      // var contractAddress = "TPgP3we6MKnmxycm7fsR3eewqUd7rnsmkR"; // Testnet New
+      // var contractAddress = 'TLBwGLvcjgwL3AXVwPUafi6dA2DybzrzQa'; //  TestNet
+      var refererDefault = "TNVguXdUCEMVW4umNPQzEMxjz5th99w7cm";
+      var userReferer = "";
+      const ABI = [
+        {
+          inputs: [
+            {
+              internalType: "address payable",
+              name: "wallet",
+              type: "address",
+            },
+          ],
+          stateMutability: "nonpayable",
+          type: "constructor",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "user",
+              type: "address",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "totalAmount",
+              type: "uint256",
+            },
+          ],
+          name: "FeePayed",
+          type: "event",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "user",
+              type: "address",
+            },
+            {
+              indexed: false,
+              internalType: "uint8",
+              name: "plan",
+              type: "uint8",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "percent",
+              type: "uint256",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "amount",
+              type: "uint256",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "profit",
+              type: "uint256",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "start",
+              type: "uint256",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "finish",
+              type: "uint256",
+            },
+          ],
+          name: "NewDeposit",
+          type: "event",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: false,
+              internalType: "address",
+              name: "user",
+              type: "address",
+            },
+          ],
+          name: "Newbie",
+          type: "event",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "referrer",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "address",
+              name: "referral",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "uint256",
+              name: "level",
+              type: "uint256",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "amount",
+              type: "uint256",
+            },
+          ],
+          name: "RefBonus",
+          type: "event",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "user",
+              type: "address",
+            },
+            {
+              indexed: false,
+              internalType: "uint256",
+              name: "amount",
+              type: "uint256",
+            },
+          ],
+          name: "Withdrawn",
+          type: "event",
+        },
+        {
+          inputs: [],
+          name: "INVEST_MIN_AMOUNT",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "PERCENTS_DIVIDER",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "PERCENT_STEP",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "PROJECT_FEE",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          name: "REFERRAL_PERCENTS",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "TIME_STEP",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "commissionWallet",
+          outputs: [
+            { internalType: "address payable", name: "", type: "address" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "getContractBalance",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [{ internalType: "uint8", name: "plan", type: "uint8" }],
+          name: "getPercent",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [{ internalType: "uint8", name: "plan", type: "uint8" }],
+          name: "getPlanInfo",
+          outputs: [
+            { internalType: "uint256", name: "time", type: "uint256" },
+            { internalType: "uint256", name: "percent", type: "uint256" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "uint8", name: "plan", type: "uint8" },
+            { internalType: "uint256", name: "deposit", type: "uint256" },
+          ],
+          name: "getResult",
+          outputs: [
+            { internalType: "uint256", name: "percent", type: "uint256" },
+            { internalType: "uint256", name: "profit", type: "uint256" },
+            { internalType: "uint256", name: "finish", type: "uint256" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserAmountOfDeposits",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserAvailable",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserCheckpoint",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+            { internalType: "uint256", name: "index", type: "uint256" },
+          ],
+          name: "getUserDepositInfo",
+          outputs: [
+            { internalType: "uint8", name: "plan", type: "uint8" },
+            { internalType: "uint256", name: "percent", type: "uint256" },
+            { internalType: "uint256", name: "amount", type: "uint256" },
+            { internalType: "uint256", name: "profit", type: "uint256" },
+            { internalType: "uint256", name: "start", type: "uint256" },
+            { internalType: "uint256", name: "finish", type: "uint256" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserDividends",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserDownlineCount",
+          outputs: [
+            { internalType: "uint256", name: "", type: "uint256" },
+            { internalType: "uint256", name: "", type: "uint256" },
+            { internalType: "uint256", name: "", type: "uint256" },
+            { internalType: "uint256", name: "", type: "uint256" },
+            { internalType: "uint256", name: "", type: "uint256" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserReferralBonus",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserReferralTotalBonus",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserReferralWithdrawn",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserReferrer",
+          outputs: [{ internalType: "address", name: "", type: "address" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "userAddress", type: "address" },
+          ],
+          name: "getUserTotalDeposits",
+          outputs: [
+            { internalType: "uint256", name: "amount", type: "uint256" },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            { internalType: "address", name: "referrer", type: "address" },
+            { internalType: "uint8", name: "plan", type: "uint8" },
+          ],
+          name: "invest",
+          outputs: [],
+          stateMutability: "payable",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "startUNIX",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "totalRefBonus",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "totalStaked",
+          outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "withdraw",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+      ];
+      var userAddress;
+      var contract;
+      var trpPlan01, trpPlan02, trpPlan03, trpPlan04, trpPlan05;
+      var availabeBalance;
+      var getUserReferralBonus;
+
+      // COOCKIES STORE
+      var url_string = window.location.href;
+      // var url_string = "https://example.com/?ref=TVue6YMiJYwbNCdVXkbnusiVYD5MYJB9Wm"
+      var url = new URL(url_string);
+      var ref = url.searchParams.get("ref");
+      // console.log(ref);
+
+      if (ref) {
+        setCookie(ref, 40);
+      }
+
+      function setCookie(ref, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = "ref=" + ref + ";" + expires + ";path=/";
+      }
+
+      function getCookie() {
+        var name = "ref=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+      var getCoc = getCookie();
+
+      if (getCoc) {
+        userReferer = getCoc;
+        $("#upline").html(userReferer);
+      }
+
+      let flagInit = true;
+
+      const initialize = async () => {
+        setInterval(async () => {
+          await connectWallet();
+          await fetchAllData();
+        }, 3000);
+
+        connectWallet();
+        const historyDatex = document.querySelector("#depositHistory");
+        async function connectWallet() {
+          if (window.tronWeb && window.tronWeb.defaultAddress.base58) {
+            userAddress = window.tronWeb.defaultAddress.base58;
+            setUserAddress(userAddress);
+
+            getWallet();
+            contract = await tronWeb.contract(ABI, contractAddress);
+
+            if (
+              localStorage.getItem("wallet") !== userAddress ||
+              flagInit === true
+            ) {
+              flagInit = false;
+              historyDatex.innerHTML = "";
+              await getUserDepositInfo();
+            }
+
+            localStorage.setItem("wallet", userAddress);
+          }
+        }
+
+        async function fetchAllData() {
+          setUserAddress(userAddress);
+          await totalStaked();
+          await contractBalance();
+          await getPercent();
+          await getUserTotalDeposits();
+          await getUserDividends();
+          await getUserReferralTotalBonus();
+          await getUserReferralWithdrawn();
+          await getUserDownlineCount();
+        }
+
+        async function getWallet() {
+          let start = userAddress.slice(0, 4);
+          let end = userAddress.slice(29, 34);
+          $("#WalletConnectBtn").text(start + "..." + end);
+        }
+
+        async function _invest(_plan, _val) {
+          if (_val <= 49) {
+            swal({
+              title: "Minimum deposit limit 50 TRX!",
+              icon: "warning",
+            });
+          } else {
+            if (!tronWeb.isAddress(userReferer)) {
+              userReferer = refererDefault;
+            }
+
+            // let isValid = await Web3.utils.isAddress(userReferer);
+            // if (!isValid) {
+            // userReferer = refererDefault;
+            // }
+
+            if (!contract) {
+              swal({
+                title: "Please Connect wallet",
+                icon: "error",
+              });
+            } else {
+              // let v = _val * 10 ** 6;
+
+              let v = tronWeb.toSun(_val);
+
+              console.log(v);
+              await contract.methods
+                .invest(userReferer, _plan)
+                .send({ from: userAddress, callValue: v })
+                .then(async (res) => {
+                  console.log(res);
+                  swal({
+                    title: "Deposit Success!",
+                    icon: "success",
+                  });
+                });
+            }
+          }
+        }
+
+        $("#btnWithdraw").click(async () => {
+          if (!contract) {
+            swal({
+              title: "Please Connect wallet",
+              icon: "error",
+            });
+          } else {
+            if (availabeBalance > 50) {
+              await contract.methods
+                .withdraw()
+                .send({ from: userAddress })
+                .then(async (res) => {
+                  swal({
+                    title: "Withdraw Success!",
+                    icon: "success",
+                  });
+                });
+            } else {
+              swal({
+                title: "Minimun Withdraw limit is 50 TRX",
+                icon: "error",
+              });
+            }
+          }
+        });
+
+        async function fatchAPI() {
+          await fetch(
+            "https://api.pancakeswap.info/api/v2/tokens/0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b"
+          ).then(async (res) => {
+            let convJson = await res.json();
+
+            trx = convJson.data.price;
+            $("#trxPrice").html("$" + parseFloat(trx).toFixed(4));
+          });
+        }
+
+        // Set User Address
+        function setUserAddress(address) {
+          $("#refLink").val("http://www.trxchain.app/?ref=" + address);
+        }
+
+        // Total Staked Amount
+        async function totalStaked() {
+          await contract.methods
+            .totalStaked()
+            .call()
+            .then((res) => {
+              let totalDeposits = parseInt(res) / 1000000;
+              $("#totalStaked").html(totalDeposits + " TRX");
+            });
+        }
+
+        // Contract Balance Fetch
+        async function contractBalance() {
+          await contract.methods
+            .getContractBalance()
+            .call()
+            .then((res) => {
+              // console.log(parseFloat(res).toFixed(2) / 1000000);
+              let bal = parseFloat(res).toFixed(2) / 1000000;
+
+              $("#contractBalance").text(bal + " TRX");
+            });
+        }
+
+        // Get Total Ref Bonus
+        async function getUserReferralTotalBonus() {
+          await contract.methods
+            .getUserReferralTotalBonus(userAddress)
+            .call()
+            .then((res) => {
+              // console.log(parseInt(res));
+              $("#getUserReferralBonus").html(
+                parseFloat(parseInt(res) / 1000000).toFixed(2)
+              );
+
+              getUserReferralBonus = parseInt(res);
+            });
+          // getUserReferralTotalBonus = web3.utils.fromWei(getUserReferralTotalBonus, "Ether");
+        }
+
+        // Get withdraw Balance
+        async function getUserDividends() {
+          await contract.methods
+            .getUserAvailable(userAddress)
+            .call()
+            .then((res) => {
+              availabeBalance = parseInt(res);
+
+              // let aBalance = availabeBalance + getUserReferralBonus;
+
+              $("#availabeBalance").html(
+                parseFloat(availabeBalance / 1000000).toFixed(6)
+              );
+            });
+        }
+
+        // Get Total Ref Withdrawn
+        async function getUserReferralWithdrawn() {
+          await contract.methods
+            .getUserReferralWithdrawn(userAddress)
+            .call()
+            .then((res) => {
+              // console.log(parseInt(res));
+              $("#getUserReferralWithdrawn").html(
+                parseFloat(parseInt(res) / 1000000).toFixed(2)
+              );
+            });
+          // getUserReferralTotalBonus = web3.utils.fromWei(getUserReferralTotalBonus, "Ether");
+        }
+
+        // Get Total Ref Withdrawn
+        async function getUserDownlineCount() {
+          await contract.methods
+            .getUserDownlineCount(userAddress)
+            .call()
+            .then((res) => {
+              $("#l01").html(parseInt(res[0]));
+              $("#l02").html(parseInt(res[1]));
+              $("#l03").html(parseInt(res[2]));
+              $("#l04").html(parseInt(res[3]));
+              $("#l05").html(parseInt(res[4]));
+            });
+        }
+
+        // get daily percentage
+        async function getPercent() {
+          await contract.methods
+            .getPlanInfo(0)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcRewardUnCap(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 14;
+                $("#percentPlan01").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan01").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan01 = res;
+              });
+            });
+
+          await contract.methods
+            .getPlanInfo(1)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcRewardUnCap(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 21;
+                $("#percentPlan02").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan02").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan02 = res;
+              });
+            });
+
+          await contract.methods
+            .getPlanInfo(2)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcRewardUnCap(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 28;
+                $("#percentPlan03").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan03").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan03 = res;
+              });
+            });
+
+          await contract.methods
+            .getPlanInfo(3)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcReward(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 14;
+                $("#percentPlan04").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan04").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan04 = res;
+              });
+            });
+
+          await contract.methods
+            .getPlanInfo(4)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcReward(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 21;
+                $("#percentPlan05").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan05").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan05 = res;
+              });
+            });
+
+          await contract.methods
+            .getPlanInfo(5)
+            .call()
+            .then(async (res) => {
+              let per = parseInt(res.percent);
+              let time = parseInt(res.time);
+
+              await calcReward(100, time, per / 10 - 0.5).then((res) => {
+                let daily = res / 28;
+                $("#percentPlan06").html(parseFloat(daily).toFixed(2) + "%");
+                $("#trpPlan06").html(parseFloat(res).toFixed(2) + "%");
+                trpPlan06 = res;
+              });
+            });
+        }
+
+        async function calcRewardUnCap(amtn, day, percent) {
+          var amt = amtn;
+          let days = day;
+          let perc = percent;
+          var totalRew = 0;
+
+          for (var i = 0; i < days; i++) {
+            perc = perc + 0.5;
+            totalRew = totalRew + (perc * amt) / 100;
+          }
+          return totalRew;
+        }
+
+        async function calcReward(amtn, day, percent) {
+          var amt = amtn;
+          let days = day;
+          let perc = percent;
+
+          for (var i = 0; i < days; i++) {
+            perc = perc + 0.5;
+            amt = (perc * amt) / 100 + amt;
+          }
+          return amt;
+        }
+
+        // Get User Total Deposit
+        async function getUserTotalDeposits() {
+          await contract.methods
+            .getUserTotalDeposits(userAddress)
+            .call()
+            .then((res) => {
+              // console.log(parseFloat());
+              $("#userTotalDeposit").html(
+                parseFloat(res.amount / 1000000).toFixed(2)
+              );
+            });
+          // getUserTotalDeposits = web3.utils.fromWei(getUserTotalDeposits, "Ether");
+        }
+
+        // Number with comas seprator
+        // function numberWithCommas(x) {
+        //     return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+        // }
+
+        $("#WalletConnectBtn").click(async () => {
+          await connectWallet();
+          await getUserDepositInfo();
+        });
+
+        $("#btnPlan01").click(async () => {
+          let val = $("#inputP01").val();
+          await _invest(0, val);
+        });
+
+        $("#btnPlan02").click(async () => {
+          let val = $("#inputP02").val();
+          await _invest(1, val);
+        });
+
+        $("#btnPlan03").click(async () => {
+          let val = $("#inputP03").val();
+          await _invest(2, val);
+        });
+
+        $("#btnPlan04").click(async () => {
+          let val = $("#inputP04").val();
+          await _invest(3, val);
+        });
+
+        $("#btnPlan05").click(async () => {
+          let val = $("#inputP05").val();
+          await _invest(4, val);
+        });
+
+        $("#btnPlan06").click(async () => {
+          let val = $("#inputP06").val();
+          await _invest(5, val);
+        });
+
+        $("#inputP01").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan01) / 100).toFixed(2);
+
+          let cal = parseFloat(($(this).val() * 140) / 100).toFixed(0);
+          $("#returnReward01").html(cal);
+        });
+
+        $("#inputP02").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan02) / 100).toFixed(2);
+          let cal = parseFloat(($(this).val() * 189) / 100).toFixed(0);
+          $("#returnReward02").html(cal);
+        });
+
+        $("#inputP03").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan03) / 100).toFixed(2);
+          let cal = parseFloat(($(this).val() * 224) / 100).toFixed(0);
+          $("#returnReward03").html(cal);
+        });
+
+        $("#inputP04").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan04) / 100).toFixed(2);
+          let cal = parseFloat(($(this).val() * 200) / 100).toFixed(0);
+          $("#returnReward04").html(cal);
+        });
+
+        $("#inputP05").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan05) / 100).toFixed(2);
+          let cal = parseFloat(($(this).val() * 250) / 100).toFixed(0);
+          $("#returnReward05").html(cal);
+        });
+
+        $("#inputP06").keyup(function () {
+          // let cal = parseFloat(($(this).val() * trpPlan06) / 100).toFixed(2);
+          let cal = parseFloat(($(this).val() * 303) / 100).toFixed(0);
+          $("#returnReward06").html(cal);
+        });
+
+        function addelement(_depositDate, _amount, _plan, _finish) {
+          var completelist = document.getElementById("depositHistory");
+          completelist.innerHTML +=
+            "<tr><td>" +
+            _depositDate +
+            "</td>   <td>" +
+            _amount +
+            " </td> <td> " +
+            _plan +
+            " </td> <td> " +
+            _finish +
+            " </td>  </tr>";
+        }
+
+        function getFormattedDate(date) {
+          let hour = ("0" + date.getUTCHours()).slice(-2);
+          let minute = ("0" + date.getUTCMinutes()).slice(-2);
+          let day = ("0" + date.getUTCDate()).slice(-2);
+          let month = ("0" + (date.getUTCMonth() + 1)).slice(-2);
+          let year = date.getUTCFullYear();
+          // return hour + ':' + minute + ' ' + day + '.' + month + '.' + year
+          return day + "/" + month + "/" + year;
+        }
+
+        // Get Deposit history
+        async function getUserDepositInfo() {
+          let count;
+          let c = await contract.methods
+            .getUserAmountOfDeposits(userAddress)
+            .call();
+          count = c;
+
+          for (var i = 0; i < count; i++) {
+            let res = await contract.methods
+              .getUserDepositInfo(userAddress, i)
+              .call();
+
+            let sDate = getFormattedDate(new Date(res.start * 1000));
+            let fDate = getFormattedDate(new Date(res.finish * 1000));
+            let amt = parseFloat(res.amount / 1000000).toFixed(4);
+
+            var plan;
+
+            if (res.plan == "0") {
+              plan = "Plan 01";
+            } else if (res.plan == "1") {
+              plan = "Plan 02";
+            } else if (res.plan == "2") {
+              plan = "Plan 03";
+            } else if (res.plan == "3") {
+              plan = "Plan 04";
+            } else if (res.plan == "4") {
+              plan = "Plan 05";
+            } else if (res.plan == "5") {
+              plan = "Plan 06";
+            }
+
+            addelement(sDate, amt, plan, fDate);
+          }
+        }
+
+        setInterval(async () => {
+          // if (chainId == '56') {
+          //   // swal("Oops", "Something went wrong!", "error");
+          //   await fetchAllData();
+          // }
+        }, 5000);
+        fatchAPI();
+      };
+      window.addEventListener("DOMContentLoaded", initialize);
+
+      //         async function calcReward(amtn, day, percent) {
+      //             var amt = amtn;
+      //             let days = day;
+      //             let perc = percent;
+      //             for (var i = 0; i < days; i++) {
+      //                 perc = perc + 0.1;
+      //                 amt = (perc * amt / 100) + amt
+      //             }
+      //             return amt;
+      //         }
+
+      const connectBtn = document.getElementById("WalletConnectBtn");
+      const historyDate = document.querySelector("#depositHistory");
+      // console.log("connectBtn", connectBtn)
+      connectBtn.addEventListener("click", () => {
+        historyDate.innerHTML = "";
+      });
+      // window.addEventListener('storage', () => {
+      //   const historyDate = document.querySelector("#depositHistory")
+      //   historyDate.innerHTML = ""
+      // });
+    </script>
+  </body>
+</html>
